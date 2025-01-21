@@ -1,40 +1,73 @@
-<<<<<<< HEAD
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-## Getting Started
+```markdown
+# Bolt.new Clone: AI-Powered Web Application Builder
 
-First, run the development server:
+This project replicates the functionality of **Bolt.new**, an AI-powered browser-based tool that enables users to create web applications without extensive coding knowledge. Built using modern frameworks and tools, this project demonstrates the potential of AI in simplifying web development.
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+---
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+## Technologies Used
 
-You can start editing the page by modifying `app/page.js`. The page auto-updates as you edit the file.
+- **Frontend**: Next.js
+- **AI Integration**: Gemini
+- **State Management**: Convex
+- **Payment Integration**: PayPal
+- **Development Platform**: CodeSandbox
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+---
 
-## Learn More
+## Features
 
-To learn more about Next.js, take a look at the following resources:
+- **AI-Powered Web Development**: Generate boilerplate code and templates using AI.
+- **Real-Time Editing**: Intuitive drag-and-drop interface with live preview capabilities.
+- **Customizable Components**: Edit, add, or remove components effortlessly.
+- **Payment Support**: Integrates PayPal for seamless transactions.
+- **Beginner-Friendly**: Accessible to users with little or no programming experience.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+---
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Setup Instructions
 
-## Deploy on Vercel
+### Steps to Set Up
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+1. **Clone the Repository**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
-=======
-# Bolt.new_clone
->>>>>>> efba6e75d42d5df1de8e3d22e7ec168d83e1ebac
+   ```bash
+   git clone https://github.com/your-username/Bolt.new_clone.git
+   cd Bolt.new_clone
+   ```
+
+2. **Install Dependencies**
+
+   Install all required packages:
+
+   ```bash
+   npm install
+   ```
+
+3. **Set Up Environment Variables**
+
+   Create a `.env.local` file in the root directory and include the following variables, replacing placeholder values with your actual keys:
+
+   ```dotenv
+   NEXT_PUBLIC_GOOGLE_AUTH_KEY=""
+   CONVEX_DEPLOYMENT=""
+   NEXT_PUBLIC_CONVEX_URL=""
+   NEXT_PUBLIC_GEMINI_API_KEY=""
+   NEXT_PUBLIC_PAYPAL_CLIENT_ID=""
+   ```
+
+4. **Start the Development Server**
+
+   Launch the development server to test locally:
+
+   ```bash
+   npm run dev
+   ```
+
+5. **View the Application**
+
+   Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the project.
+
+---
+
