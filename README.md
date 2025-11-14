@@ -1,10 +1,9 @@
 
-```markdown
 # Bolt.new Clone: AI-Powered Web Application Builder
 
 This project replicates the functionality of **Bolt.new**, an AI-powered browser-based tool that enables users to create web applications without extensive coding knowledge. Built using modern frameworks and tools, this project demonstrates the potential of AI in simplifying web development.
 
----
+
 
 ## Technologies Used
 
@@ -14,7 +13,7 @@ This project replicates the functionality of **Bolt.new**, an AI-powered browser
 - **Payment Integration**: PayPal
 - **Development Platform**: CodeSandbox
 
----
+
 
 ## Features
 
@@ -24,7 +23,7 @@ This project replicates the functionality of **Bolt.new**, an AI-powered browser
 - **Payment Support**: Integrates PayPal for seamless transactions.
 - **Beginner-Friendly**: Accessible to users with little or no programming experience.
 
----
+
 
 ## Setup Instructions
 
@@ -69,5 +68,5 @@ This project replicates the functionality of **Bolt.new**, an AI-powered browser
 
    Open your browser and navigate to [http://localhost:3000](http://localhost:3000) to view the project.
 
----
+
 
